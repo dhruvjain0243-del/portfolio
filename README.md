@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dhruv Jain — Personal Portfolio
 
 A responsive personal portfolio built with Python 3, Flask, HTML, CSS, and a small amount of vanilla JavaScript. It uses Flask's standard `templates/` and `static/` folders and does not need a database or a frontend build step.
@@ -80,3 +81,7 @@ One beginner-friendly option is [Render](https://render.com/), which can run a F
 5. Deploy and open the URL Render provides.
 
 Render needs a production WSGI server for that start command. The build command installs Gunicorn for the Linux-hosted deployment without adding it to your local Windows setup (Gunicorn is not supported on Windows). Never use Flask's `debug=True` development server as a public production server. Add your genuine certificate files to the repository only if you are comfortable making them publicly downloadable.
+=======
+# portfolio
+my portfolio
+>>>>>>> 2fdf297cb7ec0b170ae4d1a3df86e6c12d5e9db7
