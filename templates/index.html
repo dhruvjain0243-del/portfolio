@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101113">
+    <meta name="description" content="Dhruv Kalpesh Jain is an aspiring data scientist and CSE (AI &amp; ML) undergraduate at JAIN (Deemed-to-be University), Bengaluru.">
+    <title>Dhruv Kalpesh Jain | Aspiring Data Scientist</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Dhruv Jain home">
+                <span class="brand-mark">D<span>.</span></span>
+                <span class="brand-name">Dhruv Jain</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+                <span></span><span></span>
+            </button>
+            <div class="nav-links" id="primary-navigation">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#journey">Journey</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certificates</a>
+                <a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING &amp; COLLABORATION</p>
+                <h1 id="hero-title">Curious by nature.<br><span>Driven by data.</span></h1>
+                <p class="hero-name">DHRUV KALPESH JAIN</p>
+                <p class="hero-role">Aspiring Data Scientist <span aria-hidden="true">·</span> CSE (AI &amp; ML) Undergraduate</p>
+                <p class="hero-intro">Building a strong foundation in data, learning one concept at a time, and looking forward to turning thoughtful questions into practical insights.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#about">Explore my portfolio <span aria-hidden="true">↓</span></a>
+                    <a class="button button-outline" href="#contact">Contact me <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="hero-socials" aria-label="Social profiles">
+                    <a href="https://www.linkedin.com/in/dhruv-jain-655a14392/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)">
+                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/dhruvjain0243-del" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <span class="social-caption">Bengaluru, India</span>
+                </div>
+            </div>
+            <div class="hero-visual" aria-label="Profile placeholder">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="hero-image-frame">
+                    <img src="{{ url_for('static', filename='images/profile-placeholder.svg') }}" alt="Profile placeholder featuring the initials DJ">
+                </div>
+                <span class="float-tag tag-data"><span class="tag-symbol">⌘</span> DATA &amp; INSIGHTS</span>
+                <span class="float-tag tag-learning"><span class="tag-spark">✳</span> ALWAYS LEARNING</span>
+                <span class="visual-index">01 / 08</span>
+            </div>
+            <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <section class="section section-about" id="about" aria-labelledby="about-title">
+            <div class="section-shell">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow"><span class="section-number">01</span> A LITTLE ABOUT ME</p>
+                    <h2 id="about-title">Learning with <span>purpose.</span></h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-lead" data-reveal>
+                        <p>I’m a technology enthusiast who enjoys learning new things, understanding a problem clearly, and exploring practical ways to solve it.</p>
+                    </div>
+                    <div class="about-detail" data-reveal>
+                        <p>As a second-year engineering student, I’m building my technical knowledge step by step and finding ways to apply what I learn to real-world problems. I’m organized, hardworking, and committed to seeing tasks through within their deadlines.</p>
+                        <p>I’m especially interested in Data Science, Artificial Intelligence, Machine Learning, and Data Analytics. Away from coursework, I enjoy cricket, snooker, and the occasional mobile game.</p>
+                        <div class="about-facts">
+                            <div><span class="fact-label">BASED IN</span><span>Bengaluru, Karnataka</span></div>
+                            <div><span class="fact-label">CURRENT FOCUS</span><span>Python · Data · SQL</span></div>
+                            <div><span class="fact-label">CAREER DIRECTION</span><span>Data Scientist / Analyst</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+            <div class="section-shell">
+                <div class="section-heading section-heading-row" data-reveal>
+                    <div>
+                        <p class="eyebrow"><span class="section-number">02</span> WHAT I’M LEARNING</p>
+                        <h2 id="skills-title">Skills in <span>progress.</span></h2>
+                    </div>
+                    <p class="heading-note">A growing toolkit, built through coursework and consistent practice.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card" data-reveal>
+                        <div class="skill-icon mint-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></div>
+                        <p class="card-kicker">01 / PROGRAMMING</p>
+                        <h3>Core languages</h3>
+                        <ul class="skill-list"><li>Python <span>Fundamentals</span></li><li>SQL <span>Basics</span></li></ul>
+                    </article>
+                    <article class="skill-card" data-reveal>
+                        <div class="skill-icon violet-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
+                        <p class="card-kicker">02 / PYTHON LIBRARIES</p>
+                        <h3>Working with data</h3>
+                        <ul class="skill-list"><li>NumPy</li><li>pandas</li><li>Matplotlib</li><li>scikit-learn</li></ul>
+                    </article>
+                    <article class="skill-card" data-reveal>
+                        <div class="skill-icon coral-icon"><i class="fa-solid fa-chart-pie" aria-hidden="true"></i></div>
+                        <p class="card-kicker">03 / DATA ANALYTICS</p>
+                        <h3>Exploring insights</h3>
+                        <ul class="skill-list"><li>Power BI <span>Beginner</span></li></ul>
+                    </article>
+                    <article class="skill-card skill-card-learning" data-reveal>
+                        <div class="skill-icon blue-icon"><i class="fa-solid fa-book-open" aria-hidden="true"></i></div>
+                        <p class="card-kicker">04 / CURRENTLY LEARNING</p>
+                        <h3>One step at a time</h3>
+                        <ul class="skill-list"><li>Data Structures &amp; Algorithms <span>with Python</span></li><li>SQL <span>Building fluency</span></li></ul>
+                    </article>
+                </div>
+                <p class="skills-note"><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> These are developing skills—I’m learning through practice and coursework.</p>
+            </div>
+        </section>
+
+        <section class="section section-education" id="education" aria-labelledby="education-title">
+            <div class="section-shell">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow"><span class="section-number">03</span> THE FOUNDATION</p>
+                    <h2 id="education-title">My <span>education.</span></h2>
+                </div>
+                <article class="education-card" data-reveal>
+                    <div class="education-monogram" aria-hidden="true">J</div>
+                    <div class="education-copy">
+                        <p class="card-kicker">BACHELOR OF TECHNOLOGY</p>
+                        <h3>Computer Science and Engineering</h3>
+                        <p class="education-specialty">Artificial Intelligence &amp; Machine Learning</p>
+                        <p class="education-institution">JAIN (Deemed-to-be University) <span>·</span> Faculty of Engineering and Technology</p>
+                    </div>
+                    <div class="education-meta">
+                        <span class="education-status"><span class="status-dot"></span> CURRENTLY ENROLLED</span>
+                        <span>Second Year · Third Semester</span>
+                        <span>Bengaluru, Karnataka, India</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-journey" id="journey" aria-labelledby="journey-title">
+            <div class="section-shell">
+                <div class="section-heading section-heading-row" data-reveal>
+                    <div>
+                        <p class="eyebrow"><span class="section-number">04</span> THE PROCESS</p>
+                        <h2 id="journey-title">A learning <span>journey.</span></h2>
+                    </div>
+                    <p class="heading-note">Small, steady steps toward understanding data and the stories it can tell.</p>
+                </div>
+                <div class="journey-track">
+                    <article class="journey-step" data-reveal>
+                        <span class="journey-marker">01</span>
+                        <p class="card-kicker">BUILD THE BASICS</p>
+                        <h3>Strengthen foundations</h3>
+                        <p>Keep developing Python, SQL, and problem-solving skills through structured learning and regular practice.</p>
+                    </article>
+                    <article class="journey-step" data-reveal>
+                        <span class="journey-marker">02</span>
+                        <p class="card-kicker">LEARN BY DOING</p>
+                        <h3>Explore the toolkit</h3>
+                        <p>Get more comfortable with data libraries, analytics tools, and the fundamentals behind machine learning.</p>
+                    </article>
+                    <article class="journey-step" data-reveal>
+                        <span class="journey-marker">03</span>
+                        <p class="card-kicker">PUT IT TO USE</p>
+                        <h3>Work on real problems</h3>
+                        <p>Turn new knowledge into thoughtful Data Science and Data Analytics projects as my skills grow.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+            <div class="section-shell">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow"><span class="section-number">05</span> IDEAS, IN THE MAKING</p>
+                    <h2 id="projects-title">Projects <span>coming soon.</span></h2>
+                </div>
+                <div class="projects-panel" data-reveal>
+                    <div class="project-orb" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <div class="project-copy">
+                        <p class="card-kicker">CURRENTLY IN THE WORKS</p>
+                        <h3>Learning today. Building tomorrow.</h3>
+                        <p>I’m strengthening my technical foundations and preparing to take on practical projects in Data Science and Data Analytics. I’ll share them here when they’re ready.</p>
+                        <span class="coming-soon-label"><span class="status-dot"></span> FIRST PROJECT — IN PROGRESS</span>
+                    </div>
+                    <div class="project-side-note">A SPACE FOR<br>WHAT’S NEXT <span>↘</span></div>
+                </div>
+                <p class="future-note">This section is ready to grow as I build and learn.</p>
+            </div>
+        </section>
+
+        <section class="section section-certifications" id="certifications" aria-labelledby="certifications-title">
+            <div class="section-shell">
+                <div class="section-heading section-heading-row" data-reveal>
+                    <div>
+                        <p class="eyebrow"><span class="section-number">06</span> LEARNING MILESTONES</p>
+                        <h2 id="certifications-title">Certificates &amp; <span>achievements.</span></h2>
+                    </div>
+                    <p class="heading-note">A record of learning opportunities and participation along the way.</p>
+                </div>
+                <div class="certificate-grid">
+                    <article class="certificate-card" data-reveal>
+                        <div class="certificate-top"><span class="certificate-icon mint-icon"><i class="fa-solid fa-people-group" aria-hidden="true"></i></span><span class="certificate-number">01</span></div>
+                        <p class="card-kicker">HACKATHON PARTICIPATION</p>
+                        <h3>Smart India Hackathon 2026</h3>
+                        <p class="certificate-issuer">Internal Hackathon Participant<br>JAIN (Deemed-to-be University), Faculty of Engineering and Technology</p>
+                        <div class="certificate-bottom"><span><i class="fa-regular fa-calendar" aria-hidden="true"></i> 11–12 September 2026</span><a href="{{ url_for('static', filename='certificates/sih.jpg') }}" target="_blank" rel="noopener noreferrer">View certificate <span aria-hidden="true">↗</span></a></div>
+                    </article>
+                    <article class="certificate-card" data-reveal>
+                        <div class="certificate-top"><span class="certificate-icon violet-icon"><i class="fa-solid fa-brain" aria-hidden="true"></i></span><span class="certificate-number">02</span></div>
+                        <p class="card-kicker">CERTIFICATE PROGRAM</p>
+                        <h3>Generative AI Foundations</h3>
+                        <p class="certificate-issuer">Generative AI Foundations Certificate Program</p>
+                        <div class="certificate-bottom"><span><i class="fa-regular fa-calendar" aria-hidden="true"></i> 24 September 2026</span><a href="{{ url_for('static', filename='certificates/genai.pdf') }}" target="_blank" rel="noopener noreferrer">View certificate <span aria-hidden="true">↗</span></a></div>
+                    </article>
+                    <article class="certificate-card" data-reveal>
+                        <div class="certificate-top"><span class="certificate-icon coral-icon"><i class="fa-solid fa-chart-column" aria-hidden="true"></i></span><span class="certificate-number">03</span></div>
+                        <p class="card-kicker">CERTIFICATE PROGRAM</p>
+                        <h3>Power BI for Beginners</h3>
+                        <p class="certificate-issuer">Power BI for Beginners</p>
+                        <div class="certificate-bottom"><span><i class="fa-regular fa-calendar" aria-hidden="true"></i> 2 March 2026</span><a href="{{ url_for('static', filename='certificates/powerbi.pdf') }}" target="_blank" rel="noopener noreferrer">View certificate <span aria-hidden="true">↗</span></a></div>
+                    </article>
+                    <article class="certificate-card" data-reveal>
+                        <div class="certificate-top"><span class="certificate-icon blue-icon"><i class="fa-brands fa-python" aria-hidden="true"></i></span><span class="certificate-number">04</span></div>
+                        <p class="card-kicker">CERTIFICATE PROGRAM</p>
+                        <h3>Python Libraries for Data Science</h3>
+                        <p class="certificate-issuer">Python Libraries for Data Science</p>
+                        <div class="certificate-bottom"><span><i class="fa-regular fa-calendar" aria-hidden="true"></i> 27 December 2025</span><a href="{{ url_for('static', filename='certificates/python.pdf') }}" target="_blank" rel="noopener noreferrer">View certificate <span aria-hidden="true">↗</span></a></div>
+                    </article>
+                </div>
+                <p class="certificate-note"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Add your original files to <code>static/certificates/</code> using the filenames linked above.</p>
+            </div>
+        </section>
+
+        <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+            <div class="section-shell">
+                <div class="contact-panel" data-reveal>
+                    <div class="contact-copy">
+                        <p class="eyebrow"><span class="section-number">07</span> SAY HELLO</p>
+                        <h2 id="contact-title">Good things start<br>with a <span>conversation.</span></h2>
+                        <p>I’m always glad to connect with people who are curious about data, technology, or learning something new.</p>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:dhruvjain0243@gmail.com"><span class="contact-link-icon"><i class="fa-regular fa-envelope" aria-hidden="true"></i></span><span><small>EMAIL ME</small>dhruvjain0243@gmail.com</span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+                        <a href="https://www.linkedin.com/in/dhruv-jain-655a14392/" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></span><span><small>CONNECT ON LINKEDIN</small>LinkedIn profile</span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+                        <a href="https://github.com/dhruvjain0243-del" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon"><i class="fa-brands fa-github" aria-hidden="true"></i></span><span><small>FIND ME ON GITHUB</small>GitHub profile</span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a class="brand footer-brand" href="#home"><span class="brand-mark">D<span>.</span></span><span class="brand-name">Dhruv Jain</span></a>
+            <p>Made with curiosity <span aria-hidden="true">✳</span> in Bengaluru, India</p>
+            <a class="back-to-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
+        </div>
+        <div class="footer-bottom"><span>© 2026 Dhruv Kalpesh Jain</span><span>Learning in progress. Always.</span></div>
+    </footer>
+</body>
+</html>

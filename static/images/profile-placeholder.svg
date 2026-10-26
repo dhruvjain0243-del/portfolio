@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title description">
+  <title id="title">DJ profile placeholder</title>
+  <desc id="description">An abstract mint and violet profile placeholder displaying the initials DJ.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26352e"/>
+      <stop offset=".55" stop-color="#1c2023"/>
+      <stop offset="1" stop-color="#302a45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".25" cy=".2" r=".85">
+      <stop offset="0" stop-color="#a3f2c5" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#a3f2c5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#background)"/>
+  <rect width="600" height="600" fill="url(#glow)"/>
+  <circle cx="300" cy="300" r="194" fill="none" stroke="#b6a1ff" stroke-opacity=".18"/>
+  <circle cx="300" cy="300" r="168" fill="none" stroke="#a3f2c5" stroke-opacity=".22"/>
+  <text x="300" y="330" fill="#f0f1ed" font-family="Manrope, Arial, sans-serif" font-size="136" font-weight="700" letter-spacing="-12" text-anchor="middle">DJ</text>
+  <path d="M272 374h56" stroke="#a3f2c5" stroke-linecap="round" stroke-width="4"/>
+</svg>
